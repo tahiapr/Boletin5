@@ -18,7 +18,7 @@ public class Boletin57 {
     Scanner sc = new Scanner (System.in);
     Opcion obj = new Opcion ();
     
-        System.out.println(" **** MENÚ **** \n 1) CADRADO \n 2) TRIÁNGULO \n 3) CÍRCULO \n Prema unha opción ");
+        System.out.println(" **** MENÚ **** \n 1) ÁREA CADRADO \n 2) ÁREA TRIÁNGULO \n 3) ÁREA CÍRCULO \n Prema unha opción ");
         int op = sc.nextInt();
         
         obj.seleccionar(op);
